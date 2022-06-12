@@ -4,7 +4,7 @@ const app = Vue.createApp({
             cart: 0,
             premium: true,
             details: ['it has such a price', 'it has a price' ],
-         
+
         }
     },
     methods: {

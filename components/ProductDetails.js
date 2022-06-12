@@ -7,12 +7,8 @@ app.component('product-details', {
   },
   template: 
     /* html */
-  `<p >This product is amazing 
-  <br>it's details: {{detailedText}}</p>`,
+  `<li v-for="detail in details">
+ {{detail}}</li>`,
 
- computed: {
-  detailedText(){
-    return this.details;
-  }
- }
+
 })
