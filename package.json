@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-vue-3",
+  "version": "1.0.0",
+  "description": "In this repo we're gonna be learning Vue 3",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cricadev/Intro-to-Vue-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cricadev/Intro-to-Vue-3/issues"
+  },
+  "homepage": "https://github.com/cricadev/Intro-to-Vue-3#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.2"
+  }
+}
