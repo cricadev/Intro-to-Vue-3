@@ -4,7 +4,11 @@ body {
   font-family: tahoma;
   color: #282828;
 }
-
+.flex {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+}
 .button {
   margin: 30px;
   background-color: #39495c;
@@ -39,7 +43,6 @@ body {
   border: 2px solid #d8d8d8;
   border-radius: 50%;
 }
-
 
 .disabledButton {
   background-color: #d8d8d8;
