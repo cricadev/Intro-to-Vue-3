@@ -10,7 +10,7 @@ body {
   background-color: #39495c;
   border-radius: 5px;
   font-size: 18px;
-  width: 160px;
+  width: max-content;
   height: 60px;
   color: white;
   padding: 20px;
@@ -39,7 +39,6 @@ body {
   border: 2px solid #d8d8d8;
   border-radius: 50%;
 }
-
 
 .disabledButton {
   background-color: #d8d8d8;
