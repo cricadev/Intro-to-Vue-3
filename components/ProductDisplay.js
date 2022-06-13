@@ -15,8 +15,8 @@ app.component('product-display', {
       <div class="product-info">
         <h1>{{ title }}</h1>
 
-        <p v-if="inStock">In Stock</p>
-        <p v-else>Out of Stock</p>
+        <p v-if="inStock">In Stock <span>{{inStock}}</span></p>
+        <p v-else>Out of Stock </p>
 
         <p>Shipping: {{ shipping }}</p>
         <ul>
@@ -75,7 +75,7 @@ app.component('product-display', {
           return this.variants[this.selectedVariant].image
       },
       inStock() {
-          return this.variants[this.selectedVariant].quantity
+          return this.variants[this.selectedVariant].quantity >0 ? this.variants[this.selectedVariant].quantity : 0
       },
       shipping() {
         if (this.premium) {
